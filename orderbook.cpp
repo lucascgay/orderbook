@@ -57,7 +57,7 @@ public:
         side(side),
         price(price),
         quantity(quantity)
-    {}
+    { }
 
 private:
     OrderType orderType;
